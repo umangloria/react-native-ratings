@@ -96,6 +96,11 @@ export type TapRatingProps = {
    * Pass in a custom base image source
    */
   starImage?: string;
+
+   /**
+    * Style for star
+    */
+    starStyle?: StyleProp<ViewStyle>;
 };
 
 const TapRating: React.FunctionComponent<TapRatingProps> = props => {
